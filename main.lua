@@ -2565,14 +2565,7 @@ function library:Init()
 	end
 end
 -- Aiming Tab
-local SettingsTab = library:AddTab("Rage");
-local SettingsColumn = SettingsTab:AddColumn(); 
-local SettingsColumn2 = SettingsTab:AddColumn(); 
-local RageSection = SettingsColumn:AddSection("Ragebot"); 
-local AimlockSection = SettingsColumn2:AddSection("Aimlock");
-
-RageSection:AddToggle({text = "Enabled", callback = function()
-end});
+local MainTab = library:AddTab("Main");
 -- [Library Settings UI] -----------------------------------------------------------------------------------------------------------------------------------------------------
 local SettingsTab = library:AddTab("Settings"); 
 local SettingsColumn = SettingsTab:AddColumn(); 
